@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nome -->
+    <EditText
+        android:id="@+id/nomeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:inputType="text" />
+
+    <!-- Idade -->
+    <EditText
+        android:id="@+id/idadeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Idade"
+        android:inputType="number" />
+
+    <!-- UF Spinner -->
+    <Spinner
+        android:id="@+id/ufSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Cidade -->
+    <EditText
+        android:id="@+id/cidadeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cidade"
+        android:inputType="text" />
+
+    <!-- Telefone -->
+    <EditText
+        android:id="@+id/telefoneEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefone"
+        android:inputType="phone" />
+
+    <!-- Email -->
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <!-- Tamanho -->
+    <RadioGroup
+        android:id="@+id/tamanhoRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P" />
+
+        <RadioButton
+            android:id="@+id/radioButtonM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M" />
+
+        <RadioButton
+            android:id="@+id/radioButtonG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G" />
+    </RadioGroup>
+
+    <!-- Cores Preferidas -->
+    <CheckBox
+        android:id="@+id/checkBoxPreto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preto" />
+
+    <CheckBox
+        android:id="@+id/checkBoxBranco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Branco" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Azul" />
+
+    <CheckBox
+        android:id="@+id/checkBoxVermelho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vermelho" />
+
+    <!-- Botão Salvar -->
+    <Button
+        android:id="@+id/salvarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar Cadastro" />
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Checkbox para "Receber Notificações" -->
+    <CheckBox
+        android:id="@+id/receiveNotificationsCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receber notificações" />
+
+    <!-- Checkbox para "Modo Escuro" -->
+    <CheckBox
+        android:id="@+id/darkModeCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modo escuro" />
+
+    <!-- Checkbox para "Lembrar Login" -->
+    <CheckBox
+        android:id="@+id/rememberLoginCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lembrar login" />
+
+    <!-- Espaço entre os Checkboxes e o Botão -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <!-- Botão para "Salvar Preferências" -->
+    <Button
+        android:id="@+id/savePreferencesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar Preferências" />
+</LinearLayout>
